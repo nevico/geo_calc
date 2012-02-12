@@ -2,7 +2,6 @@
 require "benchmark"
 require_relative '../lib/geo_calc'
 
-Dir[File.dirname(__FILE__) + '/lib/*.rb'].each {|file| require file }
 
 X = 1
 Y = 2
